@@ -37,20 +37,20 @@ The application utilizes the Winston logging library for logging. Log statements
 1. ### **Retrieve all donations:**
    * Request: http://localhost:3000/donations
      
-3. **Retrieve details of a specific donation by ID:**
+3. ### **Retrieve details of a specific donation by ID:**
    * Request for id = 3 : http://localhost:3000/donations/?id=3
    * Note: make sure the id number comes after '/?'.
      
-4. **Create a new donation:**
+4. ### **Create a new donation:**
    * Request: http://localhost:3000/donations/?id=4&name=Eliya&amount=600&location=modiin
    * Note: make sure that all the parameters comes after '/?'.
    * Note: **make sure you send all the parameters like the following: id, name, amount, location.**
      
-5. **Update an existing donation:**
+5. ### **Update an existing donation:**
    * Request: http://localhost:3000/donations/?id=4&amount=1000
    * Note: only if a donation with this id exists in the system.
      
-6. **Delete a donation:**
+6. ### **Delete a donation:**
    * Request: http://localhost:3000/donations/?id=4
    * Note: only if a donation with this id exists in the system.
       
