@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "donorName": "John Doe",
+        "amount": "100",
+        "location": "City A"
+    },
+    {
+        "id": "2",
+        "donorName": "Jane Smith",
+        "amount": "500",
+        "location": "City B"
+    },
+    {
+        "id": "3",
+        "donorName": "Bob Johnson",
+        "amount": "700",
+        "location": "City C"
+    }
+]
