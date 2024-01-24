@@ -34,7 +34,7 @@ The application utilizes the Winston logging library for logging. Log statements
 
 ## How to Use
 
-1. **Retrieve all donations:**
+1. ### **Retrieve all donations:**
    * Request: http://localhost:3000/donations
      
 3. **Retrieve details of a specific donation by ID:**
